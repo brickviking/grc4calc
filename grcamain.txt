@@ -1,0 +1,298 @@
+# Grocery Calc program (GRCAMAIN)
+# This particular version is for the newer GII models
+#
+# rev: 0.75 20180614-0939
+#     unknown relation to the next revision
+# rev 0.75.1 20210503-16:00
+#      conversion from .G1M to text
+
+# Switch files to the last available for a 9750G/G+/GII
+# This then allows us to use our own lists
+File 6↵
+# Save my current variables to a list
+Prog "GRCPUT"↵
+StoV-Win 6↵
+# Now we set the screen up the way we want
+Fix 2↵
+CoordOff↵
+GridOff↵
+AxesOff↵
+LabelOff↵
+# Request last-saved totals?
+Lbl 2↵
+ClrText↵
+Cls↵
+BG-None↵
+Text 25,5,"Load saved totals?"↵
+Prog "GRCYN"↵
+# If yes, continue
+K=79⇒Goto L↵
+K≠29⇒Goto 2↵
+# Otherwise, clear the counters we'll need
+0→A~Z↵
+#Reset List counter↵
+17→M↵
+#Create clean list↵
+17→Dim List 4↵
+# Load the Initial Tax % (NZ's GST)↵
+15→N↵
+Goto 1 # skip a bit forward↵
+# Remove vars
+Lbl T↵
+Prog "GRCRM"↵
+# Let's set this up↵
+Lbl 1↵
+0→K↵
+Fix 2↵
+ViewWindow 1,127,0,63,1,0↵
+Prog "GRCBTN"↵
+Lbl 0↵
+If Z=0↵
+Then (1-(100÷(100+N)))→O↵
+IfEnd↵
+If Z=1↵
+Then N÷100→O↵
+IfEnd↵
+Cls↵
+# Created from GRCBTN↵
+BG-Pict 6↵
+# What key did we press↵
+Prog "GRCTST"↵
+Text 1,42,ReP F↵
+# Sum the Real parts of A,B,C,D and E
+ReP A+ReP B+ReP C+ReP D+ReP E→G↵
+# Sum the Imaginary parts of A,B,C,D and E
+ImP A+ImP B+ImP C+ImP D+ImP E→J↵
+Text 49,30,G↵
+Norm ↵
+'Text 1,68,M↵
+Text 49,68,J↵
+Fix 2↵
+If Z=0↵
+Then G×O→J↵
+Text 49,99,"I"↵
+IfEnd↵
+If Z=1↵
+Then G×O→J↵
+G+J→G↵
+Fix 2↵
+Text 49,30,G↵
+Text 49,99,"A"↵
+IfEnd↵
+'Alternate is↵
+'G+(G×(N÷100))↵
+Fix 3↵
+Text 41,104,N↵
+Fix 2↵
+Text 49,108,J↵
+If ReP A>0↵
+Then Text 9,30,ReP A↵
+Norm ↵
+Text 9,68,ImP A↵
+Fix 2↵
+IfEnd↵
+If ReP B>0↵
+Then Text 17,30,ReP B↵
+Norm ↵
+Text 17,68,ImP B↵
+Fix 2↵
+IfEnd↵
+If ReP C>0↵
+Then Text 25,30,ReP C↵
+Norm ↵
+Text 25,68,ImP C↵
+Fix 2↵
+IfEnd↵
+If ReP D>0↵
+Then Text 33,30,ReP D↵
+Norm ↵
+Text 33,68,ImP D↵
+Fix 2↵
+IfEnd↵
+If ReP E>0↵
+Then Text 41,30,ReP E↵
+Norm ↵
+Text 41,68,ImP E↵
+Fix 2↵
+IfEnd↵
+P>0⇒Text 1,94,P↵
+Q>0⇒Text 9,94,Q↵
+R>0⇒Text 17,94,R↵
+S>0⇒Text 25,94,S↵
+T>0⇒Text 33,94,T↵
+Lbl K↵
+# Main Menu↵
+# Cycle until we have suitable key↵
+Getkey→K↵
+# Category A - E↵
+K=79⇒Goto A↵
+K=69⇒Goto B↵
+K=59⇒Goto C↵
+K=49⇒Goto D↵
+K=39⇒Goto E↵
+# Undo [DEL]↵
+K=44⇒Goto U↵
+# Exit prompt [EXIT]↵
+K=47⇒Goto 8↵
+# temp vars menu [→]↵
+K=25⇒Goto P↵
+# Function menu [MENU]↵
+K=48⇒Goto X↵
+# Snapshot the screen [7]↵
+K=74⇒StoPict 5↵
+# Help menu [F6]↵
+If K=29↵
+Then Prog "GRCHELP"↵
+Goto 0↵
+IfEnd↵
+# nothing matched, go around the loop again↵
+K≠48⇒Goto K↵
+# Only thing left over: [EXIT]↵
+Goto X↵
+# Veges↵
+Lbl A↵
+BG-None↵
+# Pop out to Weight/Count requester↵
+Prog "GRCRQR"↵
+K→L↵
+0→U↵
+M+1→M↵
+M→List 4[1]↵
+F+1𝒊→List 4[M]↵
+Goto 0↵
+# Meat↵
+Lbl B↵
+BG-None↵
+# Pop out to Weight/Count requester
+Prog "GRCRQR"↵
+K→L↵
+0→U↵
+M+1→M↵
+M→List 4[1]↵
+F+2𝒊→List 4[M]↵
+Goto 0↵
+# Misc↵
+Lbl C↵
+Prog "GRCITEM"↵
+K→L↵
+M+1→M↵
+M→List 4[1]↵
+F+3𝒊→List 4[M]↵
+Goto 0↵
+# Dairy
+Lbl D↵
+Prog "GRCITEM"↵
+K→L↵
+M+1→M↵
+M→List 4[1]↵
+F+4𝒊→List 4[M]↵
+Goto 0↵
+# Clean↵
+Lbl E↵
+Prog "GRCITEM"↵
+K→L↵
+M+1→M↵
+M→List 4[1]↵
+F+5𝒊→List 4[M]↵
+Goto 0↵
+# Undo Last Entry↵
+Lbl U↵
+L=79⇒A-H𝒊-F→A↵
+L=69⇒B-H𝒊-F→B↵
+L=59⇒C-H𝒊-F→C↵
+L=49⇒D-H𝒊-F→D↵
+L=39⇒E-H𝒊-F→E↵
+0→K~L↵
+# Empty out the last-used entry↵
+0→List 4[M]↵
+# Subtract one off the used count↵
+M-1→M↵
+M→List 4[1]↵
+# Back to main loop↵
+Goto 0↵
+# Temp Val requester↵
+Lbl P↵
+Cls↵
+ClrText↵
+If P=0↵
+Then "P"?→P↵
+Goto 0↵
+Else If Q=0↵
+Then "Q"?→Q↵
+Goto 0↵
+Else If R=0↵
+Then "R"?→R↵
+Goto 0↵
+Else If S=0↵
+Then "S"?→S↵
+Goto 0↵
+Else If T=0↵
+Then "T"?→T↵
+Else ↵
+BG-None↵
+Text 9,15,"The temporary slots P-T"↵
+Text 17,35,"are all full."↵
+Text 33,14,"You can empty them from"↵
+Text 41,12,"the Function->Erase menu."↵
+# Pop up a menu in case we want to erase
+Text 58,107,"Erase"↵
+Text 58,1,"Back"↵
+Lbl Q↵
+Getkey→U↵
+U=29⇒Prog "GRCRM"↵
+U≠79⇒Goto Q↵
+IfEnd↵
+0→U↵
+Goto 0↵
+# Functions menu↵
+Lbl X↵
+BG-None↵
+Cls↵
+Text 20,10,"Choose function or Exit"↵
+Text 58,1,"Back"↵
+Text 58,19,"Prefs"↵
+Text 58,42,"Erase"↵
+Text 58,65,"Store"↵
+Text 58,90,"Load"↵
+Text 58,112,"List"↵
+Lbl V↵
+Getkey→K↵
+K=79⇒Goto 1↵
+If K=69↵
+Then Prog "GRCPREFS"↵
+Goto X↵
+IfEnd↵
+'K=69⇒Goto 9↵
+K=59⇒Goto T↵
+K=49⇒Goto S↵
+K=39⇒Goto L↵
+K=29⇒Prog "GRCLIST"↵
+K≠47⇒Goto V↵
+'Exit key↵
+Lbl 8↵
+BG-None↵
+Cls↵
+Text 14,20,"Save current totals"↵
+Text 22,20,"for next time?"↵
+Prog "GRCYN"↵
+K=79⇒Goto 5↵
+K≠29⇒Goto 8↵
+Lbl 4↵
+0→K~L↵
+BG-None↵
+ClrText↵
+Prog "GRCGET"↵
+RclV-Win 6↵
+File 1↵
+Stop↵
+Lbl 5↵
+Prog "GRCSAVE"↵
+Goto 4↵
+Lbl S↵
+Prog "GRCSAVE"↵
+Goto 0↵
+Lbl L↵
+Prog "GRCLOAD"↵
+Goto 0↵
+EndFilename
+
