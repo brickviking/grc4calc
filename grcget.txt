@@ -1,0 +1,32 @@
+Filename:GRCGET
+# Retrieve saved variables↵
+File 6↵
+List 6[1]→A↵
+List 6[2]→B↵
+List 6[3]→C↵
+List 6[4]→D↵
+List 6[5]→E↵
+List 6[6]→F↵
+List 6[7]→G↵
+List 6[8]→H↵
+List 6[9]→I↵
+List 6[10]→J↵
+List 6[11]→K↵
+List 6[12]→L↵
+List 6[13]→M↵
+List 6[14]→N↵
+List 6[15]→O↵
+List 6[16]→P↵
+List 6[17]→Q↵
+List 6[18]→R↵
+List 6[19]→S↵
+List 6[20]→T↵
+List 6[21]→U↵
+List 6[22]→V↵
+List 6[23]→W↵
+List 6[24]→X↵
+List 6[25]→Y↵
+List 6[26]→Z↵
+List 6[27]→r↵
+List 6[28]→θ↵
+EndFilename
