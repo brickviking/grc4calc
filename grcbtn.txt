@@ -1,0 +1,39 @@
+Filename:GRCBTN
+# Creates background pic↵
+# Only needs to be run on first startup
+# Clean slate
+Cls↵
+# Empty destination picture (just in case)
+StoPict 6↵
+# LHS Categories
+Text 1,1,"Last"↵
+Text 9,1,"Veges"↵
+Text 17,1,"Meat"↵
+Text 25,1,"Misc"↵
+Text 33,1,"Dairy"↵
+Text 41,1,"Clean"↵
+Text 49,1,"Total"↵
+# RHS Temp/Tax%
+Text 1,86,"P"↵
+Text 9,86,"Q"↵
+Text 17,86,"R"↵
+Text 25,86,"S"↵
+Text 33,86,"T"↵
+Text 41,86,"I%"↵
+Text 49,84,"Tax( )"↵
+# Pretty boxing
+F-Line 1,7,82,7↵
+F-Line 1,56,127,56↵
+F-Line 1,47,82,47↵
+F-Line 82,1,82,56↵
+F-Line 82,39,127,39↵
+# Menuline text↵
+Text 58,1,"Vege"↵
+Text 58,22,"Meat"↵
+Text 58,44,"Misc"↵
+Text 58,68,"Dairy"↵
+Text 58,93,"Clean"↵
+Text 58,122,"?"↵
+# We've got picture, now let's stash it
+StoPict 6↵
+EndFilename
