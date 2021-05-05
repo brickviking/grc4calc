@@ -133,7 +133,7 @@ they live. This can mean a significant difference between the shelf price of an 
 the till price. Table 1 shows an example of three common items and their respective
 totals at the till.
 
-|Item| Ticket Price | | Total | |
+|Item| Ticket Price (NZD) | (USD)| Total (NZD) | (USD)|
 |-|-|-|-|-|
 | (NZD) | (USD) | (NZD) | (USD) |
 | Apples | 3.95 | 1.75 | 3.95 | 2.38 |
