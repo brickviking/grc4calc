@@ -1,0 +1,80 @@
+Filename:LBLSHELP
+Global vars in GROCERY:     PICT5 PICT6 File6:List4-6 A-Z r theta
+check VARSHELP for further details by program
+
+Labels used for GRC[A]MAIN [A-variant is for full ascii (9750GII)]
+GRCAMAIN:                      V-Win6 PICT5 PICT6 File6 List4-6 A-Z r theta
+Label:  function               Vars used ((x) accessed by another function)
+A: processVal                  (A) F K L M U List4
+B: processVal                  (B) F K L M U List4
+C: processVal                  (C) F K L M List4
+D: processVal                  (D) F K L M List4
+E: processVal                  (E) F K L M List4
+K: getKey                      K Pict5
+L: loadGrocVals                (List5 M A B C D E F K L N P Q R S T List4)
+P: reqTempVal                  P-T
+Q: reqBack                     U
+S: storeVals    (SAVE)         (A B C D E F K L N P Q R S T List4 List5)
+T: reqClearVals                A-Z M P-T
+U: undoLastVal                 A B C D E F H K L M List4
+V: funcReq                     K
+X: funcMenu
+0: keyReq, printScrn           N O Pict6 F A B C D E G J P-T
+1: sysInit                     K L 
+2: reqLoadVals                 K A-Z List4 M N
+4: loadStoredVals (GET)        K L (A-Z r theta) File1
+5: storeGroceries              ()
+6: newTax                      N
+7: reqYN                       K
+8: reqExit                     K             
+9: reqTaxRate                  N
+
+GRCBTN:                        PICT6
+
+GRCLOAD:                       List5 M A B C D E F K L N P Q R S T List4
+
+GRCSAVE:                       A B C D E F K L N P Q R S T List4 List5
+
+GRCGET:                        File6 List6 A-Z r theta
+
+GRCPUT:                        File6 List6 A-Z r theta
+
+GRCLIST:
+K: reqListBackNext             List4 H I J K M U V
+
+GRCRQR:
+0:menuItemWeight
+B:reqItemWeight                U
+
+GRCITEM:                       A B C D E F H I K
+GRCWGT:                        A B F H I K
+
+GRCTST:                        L
+
+GRCYN:
+0: reqYN                       K
+
+GRCHELP:                       K
+A-IYZ: clrScrn
+0: menuContents1
+J: menuContents2
+1: mainHelp
+2: otherHelp
+3: inputHelp
+4: functionHelp
+5: taxHelp
+6: listHelp
+7: temp1Help
+8: temp2Help
+9: eraseHelp
+K: reqContents1                K
+L: reqContents2                K
+M: reqMain                     K
+N: reqOther                    K
+O: reqInput                    K
+P: reqFunction                 K
+Q: reqTax                      K
+R: reqList                     K
+S: reqTemp1                    K
+T: reqTemp2                    K
+U: reqErase                    K

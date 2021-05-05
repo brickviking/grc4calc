@@ -1,0 +1,18 @@
+Filename:GRCTST
+# What was the last categ chosen↵
+If L=79↵
+Then Text 1,20,"Vege"↵
+IfEnd↵
+If L=69↵
+Then Text 1,20,"Meat"↵
+IfEnd↵
+If L=59↵
+Then Text 1,20,"Misc"↵
+IfEnd↵
+If L=49↵
+Then Text 1,20,"Dairy"↵
+IfEnd↵
+If L=39↵
+Then Text 1,20,"Clean"↵
+IfEnd↵
+EndFilename

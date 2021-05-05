@@ -1,0 +1,67 @@
+Filename:GRCPREFS
+# Initial cut at setting prefs↵
+# Changes here will require rewriting↵
+# the help.↵
+Lbl A↵
+# First, the menu↵
+BG-None↵
+Cls↵
+ClrGraph↵
+ClrText↵
+Text 20,10,"Please select an option"↵
+F-Line 55,1,55,127↵
+Text 58,1,"Back"↵
+Text 58,22,"Tax"↵
+#Might need this later
+# Haven't written code yet
+'Text 58,44,"Yen"↵
+Text 58,122,"?"↵
+Lbl B↵
+Getkey→K↵
+# Exit↵
+K=79⇒Goto Z↵
+# Tax↵
+K=69⇒Goto T↵
+# Decimal toggle↵
+K=59⇒Goto Y↵
+K=29⇒Prog "GRCHELP"↵
+K≠47⇒Goto B↵
+# Skip to the end↵
+Goto Z↵
+# Tax Change↵
+Lbl T↵
+Cls↵
+Text 14,14,"Current Tax"↵
+Text 14,85,N↵
+Text 33,35,"Change it?"↵
+Lbl 7↵
+Prog "GRCYN"↵
+K=79⇒Goto 6↵
+K≠29⇒Goto 7↵
+Goto Z↵
+Lbl 6↵
+Cls↵
+"New Tax RRate"?→N↵
+# Tax toggle Include/Add↵
+Cls↵
+Text 14,4,"F1: Tax Included (UK/EU/NZ/AU)"↵
+Text 23,4,"F6: Tax Added (USA)"↵
+Text 58,1,"Included"↵
+Text 58,104,"Added"↵
+Lbl F↵
+Getkey→K↵
+K=79⇒Goto 9↵
+K=29⇒Goto 0↵
+Goto F↵
+# Yen Toggle↵
+# Yet to write this code
+Lbl Y↵
+Lbl 9↵
+0→Z↵
+Goto Z↵
+Lbl 0↵
+1→Z↵
+Goto Z↵
+# Exit this screen↵
+Lbl Z↵
+EndFilename

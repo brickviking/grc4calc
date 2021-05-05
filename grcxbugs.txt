@@ -1,0 +1,9 @@
+Filename:GRCXBUGS
+# Current buglist↵
+# LBRWS loops around↵
+# F-Line doesn't always work↵
+# Init needs to be↵
+# done sooner, so we↵
+# can have a clean↵
+# screen for first qu↵
+EndFilename

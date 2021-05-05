@@ -1,0 +1,6 @@
+Filename:GRCPUT
+# Stash pre-app variables in a normal list↵
+# We can pull them back in after GRC finishes↵
+# File 6↵
+{A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,r,θ}→List 6↵
+EndFilename

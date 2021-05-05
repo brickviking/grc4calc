@@ -1,0 +1,19 @@
+Filename:GRCITEM
+# Requester for items↵
+ClrText↵
+"How many"?→H↵
+"Price for each"?→I↵
+H×I→F↵
+If K=79↵
+Then A+H𝒊+F→A↵
+Else If K=69↵
+Then B+H𝒊+F→B↵
+Else If K=59↵
+Then C+H𝒊+F→C↵
+Else If K=49↵
+Then D+H𝒊+F→D↵
+Else If K=39↵
+Then E+H𝒊+F→E↵
+IfEnd↵
+ClrText↵
+EndFilename

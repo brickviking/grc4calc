@@ -1,0 +1,17 @@
+Filename:GRCRQR
+Cls↵
+Lbl 0↵
+Text 25,20,"Item count or weight?"↵
+Text 33,32,"Exit to cancel"↵
+Text 58,1,"Count"↵
+Text 58,100,"Weight"↵
+Lbl 1↵
+Getkey→U↵
+If U=79↵
+Then Prog "GRCITEM"↵
+Else If U=29↵
+Then Prog "GRCWGT"↵
+Else If U≠47↵
+Then Goto 1↵
+IfEnd↵
+EndFilename

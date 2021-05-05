@@ -1,0 +1,25 @@
+Filename:GRCSAVE
+# Store grocery vars↵
+# don't need G or O↵
+# as we work it out↵
+File 6↵
+M→List 4[1]↵
+A→List 4[2]↵
+B→List 4[3]↵
+C→List 4[4]↵
+D→List 4[5]↵
+E→List 4[6]↵
+F→List 4[7]↵
+K→List 4[8]↵
+L→List 4[9]↵
+N→List 4[10]↵
+P→List 4[11]↵
+Q→List 4[12]↵
+R→List 4[13]↵
+S→List 4[14]↵
+T→List 4[15]↵
+Z→List 4[16]↵
+r→List 4[17]↵
+# Save these out for later
+List 4→List 5↵
+EndFilename

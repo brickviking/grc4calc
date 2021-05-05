@@ -1,0 +1,23 @@
+Filename:GRCLOAD
+File 6↵
+# Load in the List element count↵
+List 5[1]→M↵
+# Load in the normal vars↵
+List 5[2]→A↵
+List 5[3]→B↵
+List 5[4]→C↵
+List 5[5]→D↵
+List 5[6]→E↵
+List 5[7]→F↵
+List 5[8]→K↵
+List 5[9]→L↵
+List 5[10]→N↵
+List 5[11]→P↵
+List 5[12]→Q↵
+List 5[13]→R↵
+List 5[14]→S↵
+List 5[15]→T↵
+List 5[16]→Z↵
+List 5[17]→r↵
+List 5→List 4↵
+EndFilename

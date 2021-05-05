@@ -1,0 +1,46 @@
+Filename:GRCLIST
+# Browse List4 (main work list)↵
+# Use F6 to page, F1 to exit↵
+# First, just in case, set the right file↵
+File6↵
+BG-None↵
+List 4[1]→M↵
+17→H↵
+# Page↵
+(M-17) Int÷ 7→U↵
+For H→V To M Step 7↵
+Cls↵
+U>0⇒7→J↵
+# Line↵
+U=0⇒(M-17) Rmdr 7→J↵
+For 1→I To J↵
+Text (8×I-8)+1,30,ReP List 4[V+I]↵
+If ImP List 4[V+I]=1↵
+Then Text (8×I-8)+1,1,"Vege"↵
+IfEnd↵
+If ImP List 4[V+I]=2↵
+Then Text (8×I-8)+1,1,"Meat"↵
+IfEnd↵
+If ImP List 4[V+I]=3↵
+Then Text (8×I-8)+1,1,"Misc"↵
+IfEnd↵
+If ImP List 4[V+I]=4↵
+Then Text (8×I-8)+1,1,"Dairy"↵
+IfEnd↵
+If ImP List 4[V+I]=5↵
+Then Text (8×I-8)+1,1,"Clean"↵
+IfEnd
+# cycle the inner loop (l:16)↵
+Next↵
+Text 58,1,"Back"↵
+Text 58,105,"Next"↵
+U-1→U↵
+Lbl K↵
+Getkey→K↵
+K=79⇒Break↵
+K=47⇒Break↵
+K≠29⇒Goto K↵
+# Cycle the outer loop (l:11)↵
+Next↵
+Return↵
+EndFilename

@@ -1,0 +1,42 @@
+Filename:GRCRM
+# Removes work vals, temp vars or all vars
+Lbl 0↵
+Cls↵
+BG-None↵
+ClrText↵
+If G≠0↵
+Then Text 1,1,"Values not cleared"↵
+Text 58,44,"Values"↵
+Else Text 1,1,"Values cleared"↵
+IfEnd↵
+If P≠0↵
+Then Text 9,1,"Temp values not cleared"↵
+Text 58,88,"Temp"↵
+Else Text 9,1,"Temp values cleared"↵
+IfEnd↵
+If G+P>0↵
+Then Text 58,115,"All"↵
+Text 25,5,"Choose which values to clear?"↵
+IfEnd↵
+Text 58,1,"Back"↵
+Lbl 1↵
+Getkey→K↵
+If K=59↵
+Then 0→A~L↵
+17→M↵
+Goto 0↵
+IfEnd↵
+If K=39↵
+Then 0→P~T↵
+Goto 0↵
+IfEnd↵
+If K=29↵
+Then 0→A~L↵
+0→P~T↵
+17→M↵
+Goto 0↵
+IfEnd↵
+K≠79⇒Goto 1↵
+ClrText↵
+Cls↵
+EndFilename

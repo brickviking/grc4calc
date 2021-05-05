@@ -1,0 +1,34 @@
+Filename:VARSHELP
+# No need to load this
+# to the calculator
+#
+# On the fx-9750GII, Lists can
+# store complex vars.
+# On the fx-9750G+, Lists
+# CANNOT store complex vars.
+#
+# A-E Complex↵
+# A:Veges↵
+# B:Meat↵
+# C:Misc↵
+# D:Dairy↵
+# E:Clean↵
+# F:tempvar and undo↵
+# G:grand total, sum(ReP A:E)↵
+# H:veges amount or count↵
+# I:veges price  (complex?)↵
+# J:Grand Total Count(ImP A:E)↵
+# J also gets used to print out tax on G↵
+# K:keyval from GetKey↵
+# L:Last keyvar used↵
+# M:Last listcount↵
+# N:Tax rate↵
+# O:worked-out tax on G↵
+# P-T:temp vars↵
+# U:spare keyval for GRCRQR↵
+# r:List save↵
+# Y:Yen toggle?↵
+# Z:Tax toggle↵
+# Check GRCLOAD for reloads↵
+# GRCLIST uses H, I, V and M↵
+EndFilename

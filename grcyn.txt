@@ -1,0 +1,9 @@
+Filename:GRCYN
+#  Print F1,6↵
+Text 58,1,"Yes"↵
+Text 58,118,"No"↵
+Lbl 0↵
+Getkey→K↵
+K=29⇒Return↵
+K≠79⇒Goto 0↵
+EndFilename

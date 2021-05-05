@@ -1,0 +1,14 @@
+Filename:GRCWGT
+# Requester for weight↵
+ClrText↵
+"How heavy"?→H↵
+"Kg/lb cost"?→I↵
+H×I→F↵
+1→H↵
+If K=79↵
+Then A+H𝒊+F→A↵
+Else If K=69↵
+Then B+H𝒊+F→B↵
+IfEnd↵
+ClrText↵
+EndFilename
