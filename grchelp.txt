@@ -1,0 +1,300 @@
+Filename:GRCHELP
+# Help screens↵
+BG-None↵
+Lbl Z↵
+Cls↵
+Text 1,30,"Contents 1 of 2"↵
+F-Line 28,7,92,7↵
+Text 9,1,"1: Main Screen"↵
+Text 17,1,"2: Other keys"↵
+Text 25,1,"3: Inputting values"↵
+Text 33,1,"4: Functions"↵
+Text 41,1,"5: Tax RRate"↵
+Text 49,1,"Choose number, Next or Exit"↵
+Text 58,1,"Exit"↵
+Text 58,68,"Next"↵
+Lbl K↵
+Getkey→K↵
+K=79⇒Return↵
+K=72⇒Goto A↵
+K=62⇒Goto B↵
+K=52⇒Goto C↵
+K=73⇒Goto D↵
+K=63⇒Goto E↵
+K=47⇒Return↵
+If K=49↵
+Then Goto Y↵
+IfEnd↵
+K≠29⇒Goto K↵
+Lbl Y↵
+Cls↵
+Text 1,30,"Contents 2 of 2"↵
+F-Line 28,7,92,7↵
+Text 9,1,"6: Tax RRates 2"↵
+Text 17,1,"7: List values"↵
+Text 25,1,"8: Temporary Values"↵
+Text 33,1,"9: temp vals continued"↵
+Text 41,1,"0: Erase totals"↵
+Text 49,1,"Choose number, Next or Exit"↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Text 58,93,"Contents"↵
+Lbl L↵
+Getkey→K↵
+K=79⇒Return↵
+K=53⇒Goto V↵
+K=74⇒Goto F↵
+K=64⇒Goto G↵
+K=54⇒Goto H↵
+K=71⇒Goto I↵
+'K=63⇒Goto E↵
+K=47⇒Return↵
+K=49⇒Goto A↵
+K=59⇒Goto Z↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto L↵
+'Clear the screen for each page↵
+Lbl A↵
+Cls↵
+Text 1,40,"Main Screen"↵
+F-Line 38,7,87,7↵
+Text 9,1,"The left side has a list of"↵
+Text 17,1,"categories with totals. The"↵
+Text 25,1,"menu line is on the F1-F6 keys."↵
+Text 33,1,"F6 shows you this help."↵
+Text 41,1,"The right side contains the tax"↵
+Text 49,1,"rate and temporary values."↵
+Text 58,1,"Exit"↵
+Text 58,93,"Contents"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Lbl M↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto Y↵
+K=47⇒Return↵
+K=49⇒Goto B↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto M↵
+Lbl B↵
+Cls↵
+Text 1,40,"Other Keys"↵
+F-Line 38,7,82,7↵
+Text 9,1,"EXIT leaves program, asks to"↵
+Text 17,1,"save your totals first."↵
+Text 25,1,"DEL reverses your last entry."↵
+Text 33,1,"MENU brings up another list"↵
+Text 41,1,"of functions."↵
+Text 49,1,"→ (ASSIGN) sets temp values"↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Text 58,90,"Contents"↵
+Lbl N↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto A↵
+K=47⇒Return↵
+K=49⇒Goto C↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto N↵
+Lbl C↵
+Cls↵
+Text 1,36,"Input values"↵
+F-Line 34,7,85,7↵
+Text 9,1,"Choose a category (F1-F5),"↵
+Text 17,1,"answer questions on screen."↵
+Text 25,1,"Enter values, hit EXE to accept,"↵
+Text 33,1,"or DEL to erase a mistake."↵
+Text 41,1,"F6 brings up this help."↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Text 58,93,"Contents"↵
+Lbl O↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto B↵
+K=47⇒Return↵
+K=49⇒Goto D↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto O↵
+Lbl D↵
+Cls↵
+Text 1,35,"Function menu"↵
+F-Line 33,7,90,7↵
+Text 9,1,"Prefs: change preferences"↵
+Text 17,1,"Erase: wipe current totals"↵
+Text 25,1,"Store: save current totals"↵
+Text 33,1,"Load: restore totals from"↵
+Text 41,1,"last save."↵
+Text 49,1,"List: show individual values"↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Text 58,93,"Contents"↵
+Lbl P↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto C↵
+K=47⇒Return↵
+K=49⇒Goto E↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto P↵
+Lbl E↵
+Cls↵
+Text 1,45,"Tax RRate"↵
+F-Line 43,7,77,7↵
+Text 9,1,"If you have state tax AND other"↵
+Text 17,1,"tax on some items, add the two"↵
+Text 25,1,"together and provide the total"↵
+Text 33,1,"if setting the new rate. This"↵
+Text 41,1,"doesn't cover items taxed once."↵
+Text 49,1,"Ex: 11.25+6.0 [EXE]"↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Text 58,93,"Contents"↵
+Lbl Q↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto D↵
+K=47⇒Return↵
+K=49⇒Goto V↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto Q↵
+Lbl V↵
+Cls↵
+# Reason for RR here is because Ra on its own is an opcode↵
+Text 1,41,"Tax RRate 2"↵
+F-Line 39,7,81,7↵
+Text 9,1,"USA normally doesn't put tax"↵
+Text 17,1,"on price tags, so choose Added"↵
+Text 25,1,"when buying things in the US."↵
+Text 33,1,"In other places, it's usually"↵
+Text 41,1,"included as part of the ticket."↵
+Text 49,1,"price, so choose Included."↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Text 58,93,"Contents"↵
+Lbl W↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto E↵
+K=47⇒Return↵
+K=49⇒Goto F↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto W↵
+Lbl F↵
+Cls↵
+Text 1,40,"List Values"↵
+F-Line 38,7,82,7↵
+Text 9,1,"List shows you the individual"↵
+Text 17,1,"category entries you've made."↵
+Text 25,1,"This way you can check if"↵
+Text 33,1,"you've missed something in"↵
+Text 41,1,"your shopping cart."↵
+Text 49,1,""↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Text 58,93,"Contents"↵
+Lbl R↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto V↵
+K=47⇒Return↵
+K=49⇒Goto G↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto R↵
+Lbl G↵
+Cls↵
+Text 1,25,"Temporary Values"↵
+F-Line 23,7,93,7↵
+Text 9,1,"Five slots (P-T) are set aside"↵
+Text 17,1,"for spare prices, these can be"↵
+Text 25,1,"set and used for later values."↵
+Text 33,1,"Ex: P=4.59"↵
+Text 41,1,"(later) Vege weight: 1.24 [EXE]"↵
+Text 49,1,"Vege Price: P [EXE]"↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Text 58,93,"Contents"↵
+Lbl S↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto F↵
+K=47⇒Return↵
+K=49⇒Goto H↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto S↵
+Lbl H↵
+Cls↵
+Text 1,20,"Temp vals continued"↵
+F-Line 18,7,100,7↵
+Text 9,1,"This will multiply what's in P"↵
+Text 17,1,"and the weight to give a total."↵
+Text 25,1,"Temp values can be erased"↵
+Text 33,1,"when you have finished with"↵
+Text 41,1,"them."↵
+Text 49,1,""↵
+Text 57,1,""↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,68,"Next"↵
+Text 58,93,"Contents"↵
+Lbl T↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto G↵
+K=47⇒Return↵
+K=49⇒Goto I↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto T↵
+Lbl I↵
+Cls↵
+Text 1,40,"Erase totals"↵
+F-Line 38,7,89,7↵
+Text 9,1,"Erase prompts to clear out all"↵
+Text 17,1,"grocery totals, and prompts to"↵
+Text 25,1,"clear out temporary values P-T."↵
+Text 33,1,""↵
+Text 41,1,""↵
+Text 49,1,""↵
+Text 57,1,""↵
+Text 58,1,"Exit"↵
+Text 58,44,"Back"↵
+Text 58,93,"Contents"↵
+Lbl U↵
+Getkey→K↵
+K=79⇒Return↵
+K=59⇒Goto H↵
+K=47⇒Return↵
+If K=29↵
+Then Goto Z↵
+IfEnd↵
+K≠29⇒Goto U↵
+EndFilename
