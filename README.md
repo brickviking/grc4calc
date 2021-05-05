@@ -133,20 +133,14 @@ they live. This can mean a significant difference between the shelf price of an 
 the till price. Table 1 shows an example of three common items and their respective
 totals at the till.
 
-\begin{table}
-  \begin{center}
-	\label{tab:table1}
-	\begin{tabular}{l|S|S|S|S} % <-- Alignments: 1st column left, 2nd and onwards middle, with vertical lines in between
-		{\textbf{Item}} & \multicolumn{2}{c}{ \textbf{Ticket Price}} & \multicolumn{2}{c}{ \textbf{Total}}\\
-		 & {(NZD) } & {(USD)} & {(NZD)} & {(USD)} \\
-		\hline
-		Apples & 3.95 & 1.75 & 3.95 & 2.38 \\
-		Shoes & 129.99 & 59.99 & 129.99 & 65.42 \\
-		Car & 11995.00 & 5995.00 & 11995.00 & 7377.52 \\
-	\end{tabular}
-	\caption{Comparing shelf and till prices.}
-\end{center}
-\end{table}
+|Item| Ticket Price || Total ||
+| (NZD) | (USD) | (NZD) | (USD) |
+|-|-|-|-|-|
+| Apples | 3.95 | 1.75 | 3.95 | 2.38 |
+| Shoes | 129.99 | 59.99 | 129.99 | 65.42 |
+| Car | 11995.00 | 5995.00 | 11995.00 | 7377.52 |
+
+\caption{Comparing shelf and till prices.}
 
 # Conclusions
 
