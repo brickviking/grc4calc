@@ -1,0 +1,68 @@
+* Programming notes
+** Labels within programs (lblshelp.txt)
+   Currently defined labels in use by each program (grcamain, grchelp etc) are all listed in
+   lblshelp.txt. This list should be updated each time an entry is removed or added to this list
+   though there's precious few labels left over in grcamain or grchelp.
+** Variables/Lists in use
+   We currently save all variables (A-Z) to a spare list (File6->List 6, grcput) so we don't
+   accidentally hammer the user's work by running GRC. We also restore them (grcget)
+   after GRC is finished.
+   I used lists in File6 because a user is less likely to have used all Lists in all Files.
+  List 4 holds the working copy of all the data the program is expected to need, and
+  List 5 will hold data previously saved (grcsave). This can be restored to List 4 with grcload.
+** Help program
+   This is the second largest lump of text in GRC, and can be usefully left off if you already
+   know the details in the help. You'll need to revisit keycode handling within grcamain-0
+   (the menu-handling code) to leave out (or comment out) calls to grchelp.
+** Speedups
+   + While the 9750gII/9860GII calculator can be sped up (for a significant increase in
+   battery usage) it will eventually impact screen updates. A moderate increase is best if
+   you just want the UI to feel a little peppier.
+   + If this code is rewritten in CBasic, or made into a proper C program and compiled with
+   the development kit, it's unknown how much room it will take up in memory.
+* Var notes
+** Complex data
+    Some of the variables (especially A-E, and I) almost certainly contain complex values.
+    I used the Imaginary portion of A-E to contain item counters, as I was running out of
+    normal variables to hold this data, and I don't really want to be pulling teeth accessing
+    List members to support this data.
+*** fx-9750g/g+
+    + At least on the fx9750g+, though variables can hold complex data, List members cannot.
+   Further programming will be needed to access further List members to stand in for vars,
+   especially List 4[M] will need to be expanded by 5 more from its current 17.
+   + List 4[M] is a pointer to the number of variables used so far. Entries start at 17 (or 22)
+     and increase from there as elements get added to the list.
+
+     
+* Changelog
+  0.60 (not available for download): I added some functionality to automatically back up all
+           vars A-Z, r and Theta to a List so the variables can be "clobbered" by my grocery
+	   program. After the program finishes, I then restore those same variables. I also
+	   have the option of saving the existing grocery variables to another List, so that
+	   if you want to load them back in another time, you can.
+  0.61: Some slight refinements in the code for GRCAMAIN, as I realised I didn't need a
+           couple of variable increments and all the comment/blank lines, that's reduced
+	   the bytecount a little.
+  0.65: Significantly sped up the program by saving the non-volatile text as a graphic to
+           PICT6. This functionality is in GRCBTN, so run this first, or uncomment
+	   Prog "GRCBTN" near the top of GRCAMAIN for the first run. You can re-comment
+	   it once the picture has been initialised. PICT6 should be free for use.
+  0.66: Removed some code as it wasn't needed. I may have even sped the program up
+           microscopically.
+  0.67: Apparently there's a SSe command embedded in a text string, which threw me out
+           as it's not in a fx-9750G+. A word was replaced, and RclPict was replaced with BG-Pict.
+  0.68: Added Tax support, initially set to 15%. Tweaked main screen. Also sped up the
+           non-volatile text by putting it into PICT6, then using BG-Pict 6 at suitable times.
+  0.69: Tweaked main screen further
+  0.70: Reworked Tax input screen
+  0.71: program now asks if you wish to save the current grocery values on exit.
+  0.72: program now asks if you wish to load previous grocery values on startup. I use this if
+           I've been to another supermarket on the same day and want a grand total.
+  0.73: (not released) Added snapshot screen feature.
+  0.74: Added an entry browser, showing individual entries. Significant tidy-up of code.
+  0.75 (current): Added a Help screen, finally. A remake of the pictures in this guide is in
+          progress.
+  0.76: (not yet released)Rework for decimal currency toggle, for yen-users. This rework is
+           incomplete.
+
+
