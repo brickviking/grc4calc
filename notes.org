@@ -35,34 +35,33 @@
 
      
 * Changelog
-  0.60 (not available for download): I added some functionality to automatically back up all
++ 0.60 (not available for download): I added some functionality to automatically back up all
            vars A-Z, r and Theta to a List so the variables can be "clobbered" by my grocery
 	   program. After the program finishes, I then restore those same variables. I also
 	   have the option of saving the existing grocery variables to another List, so that
 	   if you want to load them back in another time, you can.
-  0.61: Some slight refinements in the code for GRCAMAIN, as I realised I didn't need a
++ 0.61: Some slight refinements in the code for GRCAMAIN, as I realised I didn't need a
            couple of variable increments and all the comment/blank lines, that's reduced
 	   the bytecount a little.
-  0.65: Significantly sped up the program by saving the non-volatile text as a graphic to
++ 0.65: Significantly sped up the program by saving the non-volatile text as a graphic to
            PICT6. This functionality is in GRCBTN, so run this first, or uncomment
 	   Prog "GRCBTN" near the top of GRCAMAIN for the first run. You can re-comment
 	   it once the picture has been initialised. PICT6 should be free for use.
-  0.66: Removed some code as it wasn't needed. I may have even sped the program up
++ 0.66: Removed some code as it wasn't needed. I may have even sped the program up
            microscopically.
-  0.67: Apparently there's a SSe command embedded in a text string, which threw me out
++ 0.67: Apparently there's a SSe command embedded in a text string, which threw me out
            as it's not in a fx-9750G+. A word was replaced, and RclPict was replaced with BG-Pict.
-  0.68: Added Tax support, initially set to 15%. Tweaked main screen. Also sped up the
++ 0.68: Added Tax support, initially set to 15%. Tweaked main screen. Also sped up the
            non-volatile text by putting it into PICT6, then using BG-Pict 6 at suitable times.
-  0.69: Tweaked main screen further
-  0.70: Reworked Tax input screen
-  0.71: program now asks if you wish to save the current grocery values on exit.
-  0.72: program now asks if you wish to load previous grocery values on startup. I use this if
++ 0.69: Tweaked main screen further
++ 0.70: Reworked Tax input screen
++ 0.71: program now asks if you wish to save the current grocery values on exit.
++ 0.72: program now asks if you wish to load previous grocery values on startup. I use this if
            I've been to another supermarket on the same day and want a grand total.
-  0.73: (not released) Added snapshot screen feature.
-  0.74: Added an entry browser, showing individual entries. Significant tidy-up of code.
-  0.75 (current): Added a Help screen, finally. A remake of the pictures in this guide is in
-          progress.
-  0.76: (not yet released)Rework for decimal currency toggle, for yen-users. This rework is
++ 0.73: (not released) Added snapshot screen feature.
++ 0.74: Added an entry browser, showing individual entries. Significant tidy-up of code.
++ 0.75 (current): Added a Help screen, finally. A remake of the pictures in this guide is in progress.
++ 0.76: (not yet released)Rework for decimal currency toggle, for yen-users. This rework is
            incomplete.
 
 
