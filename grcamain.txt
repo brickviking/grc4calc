@@ -46,7 +46,10 @@ Lbl 1↵
 Fix 2↵
 ViewWindow 1,127,0,63,1,0↵
 Prog "GRCBTN"↵
+# Setup is all done
+# Top of the main processing chain
 Lbl 0↵
+# Calculate the tax on our amount in N
 If Z=0↵
 Then (1-(100÷(100+N)))→O↵
 IfEnd↵
@@ -63,6 +66,7 @@ Text 1,42,ReP F↵
 ReP A+ReP B+ReP C+ReP D+ReP E→G↵
 # Sum the Imaginary parts of A,B,C,D and E
 ImP A+ImP B+ImP C+ImP D+ImP E→J↵
+# Print totals
 Text 49,30,G↵
 Norm ↵
 'Text 1,68,M↵
@@ -81,10 +85,12 @@ Text 49,99,"A"↵
 IfEnd↵
 'Alternate is↵
 'G+(G×(N÷100))↵
+# bump visible number of % d.p.
 Fix 3↵
 Text 41,104,N↵
 Fix 2↵
 Text 49,108,J↵
+# Print each total if it's not 0, blank it otherwise
 If ReP A>0↵
 Then Text 9,30,ReP A↵
 Norm ↵
@@ -115,6 +121,7 @@ Norm ↵
 Text 41,68,ImP E↵
 Fix 2↵
 IfEnd↵
+# Print up temp vars if they're not 0
 P>0⇒Text 1,94,P↵
 Q>0⇒Text 9,94,Q↵
 R>0⇒Text 17,94,R↵
@@ -146,9 +153,7 @@ Then Prog "GRCHELP"↵
 Goto 0↵
 IfEnd↵
 # nothing matched, go around the loop again↵
-K≠48⇒Goto K↵
-# Only thing left over: [EXIT]↵
-Goto X↵
+Goto K↵
 # Veges↵
 Lbl A↵
 BG-None↵
