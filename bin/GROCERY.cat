@@ -1,0 +1,1485 @@
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:A
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:B
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:C
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:D
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:E
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:F
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:G
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:H
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:I
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:J
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:K
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:L
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:M
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:N
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:O
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:P
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:Q
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:R
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:S
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:T
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:U
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:V
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:W
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:X
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:Y
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:Z
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:\r
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:VM
+Rows:1
+Columns:1
+Variable Name:\theta
+Group Name:Variable
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:2015
+File Name:GRCAMAIN
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Prog "GRCPUT"
+\StoV-Win 6
+\@F9\hC6
+\Fix 2
+\Lbl 2
+\ClrText
+\Cls
+\BG-None
+\Text 25,5,"LOAD SAVED TOTALS?"
+\Prog "GRCYN"
+K=79\=>\GotoL
+K\<>29\=>\Goto2
+0\->A~Z
+'RESET LIST COUNTER
+15\->M
+'CREATE CLEAN LIST
+15\->\Dim \List 4
+'INITIAL TAX \@25
+15\->N
+\Goto1
+\Lbl T
+\Prog "GRCERASE"'LET'S SET THIS UP
+\Lbl 1
+0\->K~L
+\CoordOff
+\GridOff
+\AxesOff
+\LabelOff
+\Fix 2
+\ViewWindow 1,127,0,63,1,0
+'\Prog "GRCBTN"
+\Lbl 0
+(1-(100/(100+N)))\->O
+\Cls
+'CREATED FROM GRCBTN
+\BG-Pict 6
+'WHAT KEY DID WE PRESS
+\Prog "GRCTST"
+\Text 1,42,\ReP F
+\ReP A+\ReP B+\ReP C+\ReP D+\ReP E\->G
+\ImP A+\ImP B+\ImP C+\ImP D+\ImP E\->J
+\Text 49,42,G
+\Norm
+'\Text 1,68,M
+\Text 49,70,J
+\Fix 2
+G*O\->J
+\Text 41,104,N
+\Text 49,104,J
+\If \ReP A>0
+\Then \Text 9,42,\ReP A
+\Norm
+\Text 9,70,\ImP A
+\Fix 2
+\IfEnd
+\If \ReP B>0
+\Then \Text 17,42,\ReP B
+\Norm
+\Text 17,70,\ImP B
+\Fix 2
+\IfEnd
+\If \ReP C>0
+\Then \Text 25,42,\ReP C
+\Norm
+\Text 25,70,\ImP C
+\Fix 2
+\IfEnd
+\If \ReP D>0
+\Then \Text 33,42,\ReP D
+\Norm
+\Text 33,70,\ImP D
+\Fix 2
+\IfEnd
+\If \ReP E>0
+\Then \Text 41,42,\ReP E
+\Norm
+\Text 41,70,\ImP E
+\Fix 2
+\IfEnd
+P>0\=>\Text 1,104,P
+Q>0\=>\Text 9,104,Q
+R>0\=>\Text 17,104,R
+S>0\=>\Text 25,104,S
+T>0\=>\Text 33,104,T
+\Lbl K
+'MAIN MENU
+'CYCLE UNTIL WE HAVE
+'CATEG KEY
+\Getkey\->K
+K=79\=>\GotoA
+K=69\=>\GotoB
+K=59\=>\GotoC
+K=49\=>\GotoD
+K=39\=>\GotoE
+'UNDO
+K=44\=>\GotoU
+'EXIT PROMPT
+K=47\=>\Goto8
+'TEMP VARS MENU
+K=25\=>\GotoP
+K=48\=>\GotoX
+K=74\=>\StoPict 5
+\If K=29
+\Then \Prog "GRCHELP"
+\Goto0
+\IfEnd
+K\<>48\=>\GotoK
+'FUNCTIONS MENU
+\GotoX
+\Lbl A
+\BG-None
+\Prog "GRCRQR"
+K\->L
+0\->U
+M+1\->M
+M\->\List 4[1]
+F+1\{i}\->\List 4[M]
+\Goto0
+\Lbl B
+\BG-None
+\Prog "GRCRQR"
+K\->L
+0\->U
+M+1\->M
+M\->\List 4[1]
+F+2\{i}\->\List 4[M]
+\Goto0
+\Lbl C
+\Prog "GRCITEM"
+K\->L
+M+1\->M
+M\->\List 4[1]
+F+3\{i}\->\List 4[M]
+\Goto0
+\Lbl D
+\Prog "GRCITEM"
+K\->L
+M+1\->M
+M\->\List 4[1]
+F+4\{i}\->\List 4[M]
+\Goto0
+\Lbl E
+\Prog "GRCITEM"
+K\->L
+M+1\->M
+M\->\List 4[1]
+F+5\{i}\->\List 4[M]
+\Goto0
+'UNDO LAST ENTRY
+\Lbl U
+L=79\=>A-H\{i}-F\->A
+L=69\=>B-H\{i}-F\->B
+L=59\=>C-H\{i}-F\->C
+L=49\=>D-H\{i}-F\->D
+L=39\=>E-H\{i}-F\->E
+0\->K~L
+0\->\List 4[M]
+M-1\->M
+M\->\List 4[1]
+\Goto0
+'TEMP VALS
+\Lbl P
+\Cls
+\If P=0
+\Then "P"?\->P
+\Goto0
+\Else \If Q=0
+\Then "Q"?\->Q
+\Goto0
+\Else \If R=0
+\Then "R"?\->R
+\Goto0
+\Else \If S=0
+\Then "S"?\->S
+\Goto0
+\Else \If T=0
+\Then "T"?\->T
+\IfEnd
+'ERR IF ALL SLOTS FULL
+\Goto0
+'BACK,TAX,CLEAR,
+'STORE,LOAD,EXIT
+\Lbl X
+\BG-None
+\Cls
+\Text 20,10,"CHOOSE FUNCTION OR EXIT"
+\Text 58,1,"BACK"
+\Text 58,21,"TAX"
+\Text 58,38,"ERASE"
+\Text 58,65,"STORE"
+\Text 58,90,"LOAD"
+\Text 58,112,"LIST"
+\Lbl V
+\Getkey\->K
+K=79\=>\Goto1
+K=69\=>\Goto9
+K=59\=>\GotoT
+K=49\=>\GotoS
+K=39\=>\GotoL
+K=29\=>\Prog "GRCLIST"
+K\<>47\=>\GotoV
+'EXIT KEY
+\Lbl 8
+\BG-None
+\Cls
+\Text 14,20,"SAVE CURRENT TOTALS"
+\Text 22,20,"FOR NEXT TIME?"
+\Prog "GRCYN"
+K=79\=>\Goto5
+K\<>29\=>\Goto8
+\Lbl 4
+0\->K~L
+\BG-None
+\Cls
+\Prog "GRCGET"
+\@F9\hC1
+\Stop
+\Lbl 5
+\Prog "GRCSAVE"
+\Goto4
+\Lbl 9
+\Cls
+\Text 14,14,"CURRENT TAX"
+\Text 14,85,N
+\Text 33,35,"CHANGE IT?"
+\Lbl 7
+\Prog "GRCYN"
+K=79\=>\Goto6
+K\<>29\=>\Goto7
+\Goto0
+\Lbl 6
+\Cls
+"NEW TAX RATE"?\->N
+\Goto0
+\Lbl S
+\Prog "GRCSAVE"
+\Goto0
+\Lbl L
+\Prog "GRCLOAD"
+\Goto0
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:389
+File Name:GRCBTN
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+' CREATES BACKGROUND PIC
+\Cls
+\StoPict 6
+\Text 1,1,"LAST"
+\Text 1,90,"P"
+\Text 9,1,"VEGES"
+\Text 9,90,"Q"
+\Text 17,1,"MEAT"
+\Text 17,90,"R"
+\Text 25,1,"MISC"
+\Text 25,90,"S"
+\Text 33,1,"DAIRY"
+\Text 33,90,"T"
+\Text 41,1,"CLEAN"
+\Text 41,87,"I\@25"
+\Text 49,1,"TOTAL"
+\Text 49,84,"TAX"
+\F-Line 1,7,82,7
+\F-Line 1,56,127,56
+\F-Line 1,47,82,47
+\F-Line 82,1,82,56
+\F-Line 82,39,127,39
+'MENU TEXT
+\Text 58,1,"VEGE"
+\Text 58,22,"MEAT"
+\Text 58,44,"MISC"
+\Text 58,68,"DAIRY"
+\Text 58,93,"CLEAN"
+\Text 58,122,"?"
+\StoPict 6
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:295
+File Name:GRCGET
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'GET NORMAL LIST
+\@F9\hC6
+\List 6[1]\->A
+\List 6[2]\->B
+\List 6[3]\->C
+\List 6[4]\->D
+\List 6[5]\->E
+\List 6[6]\->F
+\List 6[7]\->G
+\List 6[8]\->H
+\List 6[9]\->I
+\List 6[10]\->J
+\List 6[11]\->K
+\List 6[12]\->L
+\List 6[13]\->M
+\List 6[14]\->N
+\List 6[15]\->O
+\List 6[16]\->P
+\List 6[17]\->Q
+\List 6[18]\->R
+\List 6[19]\->S
+\List 6[20]\->T
+\List 6[21]\->U
+\List 6[22]\->V
+\List 6[23]\->W
+\List 6[24]\->X
+\List 6[25]\->Y
+\List 6[26]\->Z
+\List 6[27]\->\r
+\List 6[28]\->\theta
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:3723
+File Name:GRCHELP
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'HELP SCREENS
+\BG-None
+\Lbl Z
+\Cls
+\Lbl 0
+\Text 1,1,"0. CONTENTS"
+\Text 9,1,"1: MAIN SCREEN"
+\Text 17,1,"2: OTHER KEYS"
+\Text 25,1,"3: INPUT VALUES"
+\Text 33,1,"4: FUNCTIONS"
+\Text 41,1,"5: TAX RATE"
+\Text 49,1,"CHOOSE NUMBER, NEXT OR EXIT"
+\Text 58,1,"EXIT"
+\Text 58,105,"NEXT"
+\Lbl K
+\Getkey\->K
+K=79\=>\Return
+K=72\=>\GotoA
+K=62\=>\GotoB
+K=52\=>\GotoC
+K=73\=>\GotoD
+K=63\=>\GotoE
+K=47\=>\Return
+\If K=29
+\Then \GotoY
+\IfEnd
+K\<>29\=>\GotoK
+\Lbl Y
+\Cls
+\Lbl J
+\Text 1,1,"0. CONTINUED"
+\Text 9,1,"6: LIST VALUES"
+\Text 17,1,"7: TEMPORARY VALUES"
+\Text 25,1,"8: TEMP VALS CONTINUED"
+\Text 33,1,"9: ERASE TOTALS"
+\Text 49,1,"CHOOSE NUMBER, NEXT OR EXIT"
+\Text 58,1,"EXIT"
+\Text 58,90,"CONTENTS"
+\Lbl L
+\Getkey\->K
+K=79\=>\Return
+K=53\=>\GotoF
+K=74\=>\GotoG
+K=64\=>\GotoH
+K=54\=>\GotoI
+'K=63\=>\GotoE
+K=47\=>\Return
+K=59\=>\GotoZ
+\If K=29
+\Then \GotoA
+\IfEnd
+K\<>29\=>\GotoL
+'CLEAR THE SCREEN FOR EACH PAGE
+\Lbl A
+\Cls
+\Lbl 1
+\Text 1,1,"1. MAIN SCREEN"
+\Text 9,1,"THE LEFT SIDE HAS A LIST OF"
+\Text 17,1,"CATEGORIES WITH TOTALS. THE BOTTOM"
+\Text 25,1,"LINE HAS A MENU ON THE F1-F6 KEYS"
+\Text 33,1,"F6 SHOWS YOU THIS HELP."
+\Text 41,1,"RIGHT SIDE CONTAINS TAX RATE"
+\Text 49,1,"AND TEMPORARY VALUES"
+\Text 58,1,"EXIT"
+\Text 58,44,"BACK"
+\Text 58,68,"NEXT"
+\Text 58,90,"CONTENTS"
+\Lbl M
+\Getkey\->K
+K=79\=>\Return
+K=59\=>\GotoY
+K=47\=>\Return
+K=49\=>\GotoB
+\If K=29
+\Then \GotoZ
+\IfEnd
+K\<>29\=>\GotoM
+\Lbl B
+\Cls
+\Lbl 2
+\Text 1,1,"2. OTHER KEYS"
+\Text 9,1,"EXIT LEAVES PROGRAM, ASKS TO"
+\Text 17,1,"SAVE YOUR TOTALS FIRST."
+\Text 25,1,"DEL REVERSES YOUR LAST ENTRY."
+\Text 33,1,"MENU BRINGS UP ANOTHER LIST"
+\Text 41,1,"OF FUNCTIONS."
+\Text 49,1,"\-> (ASSIGN) SETS TEMP VALUES"
+\Text 58,1,"EXIT"
+\Text 58,44,"BACK"
+\Text 58,68,"NEXT"
+\Text 58,90,"CONTENTS"
+\Lbl N
+\Getkey\->K
+K=79\=>\Return
+K=47\=>\Return
+\If K=29
+\Then \GotoZ
+\IfEnd
+K\<>29\=>\GotoN
+\Lbl C
+\Cls
+\Lbl 3
+\Text 1,1,"3. INPUT VALUES"
+\Text 9,1,"CHOOSE A CATEGORY (F1-F5),"
+\Text 17,1,"ANSWER QUESTIONS ON SCREEN."
+\Text 25,1,"ENTER VALUES, HIT EXE TO ACCEPT,"
+\Text 33,1,"OR DEL TO ERASE A MISTAKE."
+\Text 41,1,"F6 BRINGS UP THIS HELP"
+\Text 58,1,"EXIT"
+\Text 58,44,"BACK"
+\Text 58,68,"NEXT"
+\Text 58,90,"CONTENTS"
+\Lbl O
+\Getkey\->K
+K=79\=>\Return
+K=47\=>\Return
+\If K=29
+\Then \GotoZ
+\IfEnd
+K\<>29\=>\GotoO
+\Lbl D
+\Cls
+\Lbl 4
+\Text 1,1,"4. FUNCTION MENU"
+\Text 9,1,"TAX: CHANGE TAX RATE"
+\Text 17,1,"ERASE: WIPE CURRENT TOTALS"
+\Text 25,1,"STORE: SAVE CURRENT TOTALS"
+\Text 33,1,"LOAD: RESTORE TOTALS FROM"
+\Text 41,1,"LAST SAVE."
+\Text 49,1,"LIST: SHOW INDIVIDUAL VALUES"
+\Text 58,1,"EXIT"
+\Text 58,44,"BACK"
+\Text 58,68,"NEXT"
+\Text 58,90,"CONTENTS"
+\Lbl P
+\Getkey\->K
+K=79\=>\Return
+K=47\=>\Return
+\If K=29
+\Then \GotoZ
+\IfEnd
+K\<>29\=>\GotoP
+\Lbl E
+\Cls
+\Lbl 5
+\Text 1,1,"5. TAX RATE"
+\Text 9,1,"IF YOU HAVE STATE TAX AND OTHER"
+\Text 17,1,"TAX ON SOME ITEMS, ADD THE TWO"
+\Text 25,1,"TOGETHER AND PROVIDE THE TOTAL"
+\Text 33,1,"WHEN YOU SET THE NEW RATE. THIS"
+\Text 41,1,"DOESN'T COVER ITEMS TAXED ONCE."
+\Text 49,1,"EX: 11.25+6.0 [EXE]"
+\Text 58,1,"EXIT"
+\Text 58,44,"BACK"
+\Text 58,68,"NEXT"
+\Text 58,90,"CONTENTS"
+\Lbl Q
+\Getkey\->K
+K=79\=>\Return
+K=47\=>\Return
+\If K=29
+\Then \GotoZ
+\IfEnd
+K\<>29\=>\GotoQ
+\Lbl F
+\Cls
+\Lbl 6
+\Text 1,1,"6. LIST VALUES"
+\Text 9,1,"LIST SHOWS YOU THE INDIVIDUAL"
+\Text 17,1,"CATEGORY ENTRIES YOU'VE MADE"
+\Text 25,1,"THIS WAY YOU CAN CHECK IF"
+\Text 33,1,"YOU'VE MISSED SOMETHING IN"
+\Text 41,1,"YOUR SHOPPING CART."
+\Text 49,1,""
+\Text 58,1,"EXIT"
+\Text 58,44,"BACK"
+\Text 58,68,"NEXT"
+\Text 58,90,"CONTENTS"
+\Lbl R
+\Getkey\->K
+K=79\=>\Return
+K=47\=>\Return
+\If K=29
+\Then \GotoZ
+\IfEnd
+K\<>29\=>\GotoR
+\Lbl G
+\Cls
+\Lbl 7
+\Text 1,1,"7. TEMPORARY VALUES"
+\Text 9,1,"FIVE SLOTS (P-T) ARE SET ASIDE"
+\Text 17,1,"FOR SPARE PRICES, THESE CAN BE"
+\Text 25,1,"SET AND USED FOR LATER VALUES."
+\Text 33,1,"EX: P=4.59"
+\Text 41,1,"(LATER) VEGE WEIGHT: 1.24 [EXE]"
+\Text 49,1,"VEGE PRICE: P [EXE]"
+\Text 58,1,"EXIT"
+\Text 58,44,"BACK"
+\Text 58,68,"NEXT"
+\Text 58,90,"CONTENTS"
+\Lbl S
+\Getkey\->K
+K=79\=>\Return
+K=47\=>\Return
+\If K=29
+\Then \GotoH
+\IfEnd
+K\<>29\=>\GotoS
+\Lbl H
+\Cls
+\Lbl 8
+\Text 1,1,"8. TEMP VALS CONTINUED"
+\Text 9,1,"THIS WILL MULTIPLY WHAT'S IN P"
+\Text 17,1,"AND THE WEIGHT TO GIVE A TOTAL."
+\Text 25,1,"TEMP VALUES CAN BE ERASED"
+\Text 33,1,"WHEN YOU HAVE FINISHED WITH"
+\Text 41,1,"THEM."
+\Text 49,1,""
+\Text 57,1,""
+
+\Text 58,1,"EXIT"
+\Text 58,44,"BACK"
+\Text 58,68,"NEXT"
+\Text 58,90,"CONTENTS"
+\Lbl T
+\Getkey\->K
+K=79\=>\Return
+K=47\=>\Return
+\If K=29
+\Then \GotoZ
+\IfEnd
+K\<>29\=>\GotoT
+\Lbl I
+\Cls
+\Lbl 9
+\Text 1,1,"9. ERASE TOTALS"
+\Text 9,1,"ERASE PROMPTS TO CLEAR OUT ALL"
+\Text 17,1,"GROCERY TOTALS, AND PROMPTS TO"
+\Text 25,1,"CLEAR OUT TEMPORARY VALUES P-T."
+\Text 33,1,""
+\Text 41,1,""
+\Text 49,1,""
+\Text 57,1,""
+\Text 58,1,"EXIT"
+\Text 58,44,"BACK"
+\Text 58,90,"CONTENTS"
+\Lbl U
+\Getkey\->K
+K=79\=>\Return
+K=59\=>\GotoH
+K=47\=>\Return
+\If K=29
+\Then \GotoZ
+\IfEnd
+K\<>29\=>\GotoU
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:173
+File Name:GRCITEM
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'RREQUESTER FOR ITEMS
+\Cls
+"HOW MANY"?\->H
+"PRICE FOR EACH"?\->I
+H*I\->F
+\If K=79
+\Then A+H\{i}+F\->A
+\Else \If K=69
+\Then B+H\{i}+F\->B
+\Else \If K=59
+\Then C+H\{i}+F\->C
+\Else \If K=49
+\Then D+H\{i}+F\->D
+\Else \If K=39
+\Then E+H\{i}+F\->E
+\IfEnd
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:459
+File Name:GRCLIST
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'BROWSE LIST 4
+'USE F6 TO PAGE
+'F1 TO EXIT
+\File6
+\BG-None
+\List 4[1]\->M
+15\->H
+(M-15)\Int/ 7\->U
+\For H\->V \To M \Step 7
+\Cls
+U>0\=>7\->J
+U=0\=>(M-15)\Rmdr 7\->J
+\For 1\->I \To J
+\Text (8*I-8)+1,30,\ReP \List 4[V+I]
+\If \ImP \List 4[V+I]=1
+\Then \Text (8*I-8)+1,1,"VEGE"
+\IfEnd
+\If \ImP \List 4[V+I]=2
+\Then \Text (8*I-8)+1,1,"MEAT"
+\IfEnd
+\If \ImP \List 4[V+I]=3
+\Then \Text (8*I-8)+1,1,"MISC"
+\IfEnd
+\If \ImP \List 4[V+I]=4
+\Then \Text (8*I-8)+1,1,"DAIRY"
+\IfEnd
+\If \ImP \List 4[V+I]=5
+\Then \Text (8*I-8)+1,1,"CLEAN"
+\IfEnd
+'INNER LOOP
+\Next 
+\Text 58,1,"BACK"
+\Text 58,105,"NEXT"
+U-1\->U
+\Lbl K
+\Getkey\->K
+K=79\=>\Break
+K=47\=>\Break
+K\<>29\=>\GotoK
+'OUTER LOOP
+\Next 
+\Return
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:189
+File Name:GRCLOAD
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\@F9\hC6
+'LIST ELEMENT COUNT
+\List 5[1]\->M
+'NORMAL VARS
+\List 5[2]\->A
+\List 5[3]\->B
+\List 5[4]\->C
+\List 5[5]\->D
+\List 5[6]\->E
+\List 5[7]\->F
+\List 5[8]\->K
+\List 5[9]\->L
+\List 5[10]\->N
+\List 5[11]\->P
+\List 5[12]\->Q
+\List 5[13]\->R
+\List 5[14]\->S
+\List 5[15]\->T
+\List 5\->\List 4
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:99
+File Name:GRCPUT
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+' STASH VARS IN A NORMAL LIST
+\@F9\hC6
+{A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,\r,\theta}\->\List 6
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:364
+File Name:GRCRM
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Lbl 0
+\Cls
+\BG-None
+\ClrText
+\If G\<>0
+
+\Then \Text 1,1,"VALUES NOT CLEARED"
+\Text 58,44,"VALUES"
+\Else \Text 1,1,"VALUES CLEARED"
+\IfEnd
+\If P\<>0
+\Then \Text 9,1,"TEMP VALUES NOT CLEARED"
+\Text 58,88,"TEMP"
+\Else \Text 9,1,"TEMP VALUES CLEARED"
+\IfEnd
+\If G+P>0
+\Then \Text 58,115,"ALL"
+\IfEnd
+\Text 25,5,"CHOOSE WHICH VALUES TO CLEAR?"
+\Text 58,1,"BACK"
+\Lbl 1
+\Getkey\->K
+\If K=59
+\Then 0\->A~L
+15\->M
+\Goto0
+\IfEnd
+\If K=39
+\Then 0\->P~T
+\Goto0
+\IfEnd
+\If K=29
+\Then 0\->A~L
+0\->P~T
+15\->M
+\Goto0
+\IfEnd
+K\<>79\=>\Goto1
+\ClrText
+\Cls
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:163
+File Name:GRCRQR
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Cls
+\Lbl A
+\Text 25,20,"ITEM COUNT OR WEIGHT?
+\Text 33,32,"EXIT TO CANCEL"
+\Text 58,1,"COUNT"
+\Text 58,100,"WEIGHT"
+\Lbl B
+\Getkey\->U
+\If U=79
+\Then \Prog "GRCITEM"
+\Else \If U=29
+\Then \Prog "GRCWGT"
+\Else \If U\<>47
+\Then \GotoB
+\IfEnd
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:214
+File Name:GRCSAVE
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'STORE GROCERY VARS
+'DON'T NEED G OR O
+'AS WE WORK IT OUT
+\@F9\hC6
+M\->\List 4[1]
+A\->\List 4[2]
+B\->\List 4[3]
+C\->\List 4[4]
+D\->\List 4[5]
+E\->\List 4[6]
+F\->\List 4[7]
+K\->\List 4[8]
+L\->\List 4[9]
+N\->\List 4[10]
+P\->\List 4[11]
+Q\->\List 4[12]
+R\->\List 4[13]
+S\->\List 4[14]
+T\->\List 4[15]
+\List 4\->\List 5
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:154
+File Name:GRCTST
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'LAST CATEG CHOSEN
+\If L=79
+\Then \Text 1,20,"VEGE"
+\IfEnd
+\If L=69
+\Then \Text 1,20,"MEAT"
+\IfEnd
+\If L=59
+\Then \Text 1,20,"MISC"
+\IfEnd
+\If L=49
+\Then \Text 1,20,"DAIRY"
+\IfEnd
+\If L=39
+\Then \Text 1,20,"CLEAN"
+\IfEnd
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:112
+File Name:GRCWGT
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'RREQUESTER FOR WEIGHT
+\Cls
+"HOW HEAVY"?\->H
+"KG\slashLB COST"?\->I
+H*I\->F
+1\->H
+\If K=79
+\Then A+H\{i}+F\->A
+\Else \If K=69
+\Then B+H\{i}+F\->B
+\IfEnd
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:69
+File Name:GRCXBUGS
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'CURRENT BUGLIST
+'LBRWS LOOPS AROUND
+'GRCLIST \ReP AND \ImP DON'T EXIST
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:66
+File Name:GRCYN
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'PRINT F1,6
+\Text 58,1,"YES"
+\Text 58,118,"NO"
+\Lbl 0
+\Getkey\->K
+K=29\=>\Return
+K\<>79\=>\Goto0
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:456
+File Name:VARSHELP
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'A-E COMPLEX
+' A:VEGES
+' B:MEAT
+' C:MISC
+' D:DAIRY
+' E:CLEAN
+' F:TEMPVAR AND UNDO
+' G:GR AND TOTAL, SUM(\ReP A:E)
+' H:VEGES AMOUNT OR COUNT
+' I:VEGES PRICE  (COMPLEX?)
+' J:GRAND TOTAL COUNT(\ImP A:E)
+' J ALSO GETS USED TO PRINT OUT TAX ON G
+' K:KEYVAL FROM GetKey
+' L:LAST KEYVAR USED
+' M:LAST LISTCOUNT
+' N:TAX RATE
+' O:WORKED-OUT TAX ON G
+' P-T:TEMP VARS
+' U:SPARE KEYVAL FOR GRCRQR
+' Y:YEN TOGGLE (0.76)
+'CHECK GRCLOAD FOR RELOADS
+'GRCLIST USES H, I AND M
+
+%End
