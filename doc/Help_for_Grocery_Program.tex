@@ -4,7 +4,7 @@
 \def\trade{\textsuperscript{\textregistered}}
 \author{brickviking}
 \title{Help for Grocery program}
-\date{2018-10-11}
+\date{2021-05-09}
 \documentclass[]{article}
 
 \usepackage{siunitx}
@@ -18,6 +18,8 @@
 
 
 \usepackage{multirow}
+% Added to get the table in the right place
+\usepackage{placeins}
 \begin{document}
 \maketitle
 	
@@ -29,7 +31,7 @@ to help manage the grocery totals each time you go shopping. The collection incl
 (the main program), {\bf GRCBTN} (initial screen creation), {\bf GRCHELP} (the help screens), {\bf GRCLIST},
 and a small selection of other helper programs to go along for the ride. The programs I've listed so far
 can be run on their own, the other programs should probably not be run straight from the Programs listing.
-{\bf GRCXBUGS } is not actually runnable code, but is a listing of bugs that I know about so far. GRCHELP can be
+{\bf GRCXBUGS } is not actually runnable code, but is a listing of bugs that I know about so far. {\bf GRCHELP} can be
 left off if your calculator doesn't have much room left, but is useful while you get to know GRC.
 
 
@@ -118,15 +120,16 @@ is calculated separately and {\it added} to the category total. For example in N
 the tax rate is 15\% of the total price, and the ticket price at the time of purchase is
 the only amount you will pay. In America the tax is calculated additionally to the shelf
 price, and consumers are required to pay some additional forms of tax depending upon where
-they live. This can mean a significant difference between the shelf price of an item and
+they live or the product they're buying. This can mean a significant difference between the shelf price of an item and
 the till price. Table 1 shows an example of three common items and their respective
 totals at the till.
 
-\begin{table}
+\FloatBarrier
+\begin{table}[ht]
   \begin{center}
 	\label{tab:table1}
 	\begin{tabular}{l|S|S|S|S} % <-- Alignments: 1st column left, 2nd and onwards middle, with vertical lines in between
-		{\textbf{Item}} & \multicolumn{2}{c}{ \textbf{Ticket Price}} & \multicolumn{2}{c}{ \textbf{Total}}\\
+		{\textbf{Item}} & \multicolumn{2}{c}{ \textbf{Ticket Price}} & \multicolumn{2}{c}{ \textbf{Total including tax}}\\
 		 & {(NZD) } & {(USD)} & {(NZD)} & {(USD)} \\
 		\hline
 		Apples & 3.95 & 1.75 & 3.95 & 2.38 \\
@@ -136,7 +139,7 @@ totals at the till.
 	\caption{Comparing shelf and till prices.}
 \end{center}
 \end{table}
-
+\FloatBarrier
 \section{Conclusions}
 To my knowledge, this is the only program of its type listed at casiopeia.net,
 and is a good chance to exercise the power of this calculator. At least in this
