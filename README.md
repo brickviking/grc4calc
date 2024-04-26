@@ -27,9 +27,10 @@ can be run on their own, the other programs should probably not be run straight 
 
 ## Installation
 
-To install GRC, you'll need a Casio **calculator** (fx-9750G/9860G or later), the **cable** to connect
+To install GRC, you'll need a Casio **calculator** (fx-9750G+/9860G+ or later), the **cable** to connect
 it to a computer, the **FA-124 program** (a free download from Casio), **Microsoft® Windows®**, and
 some **batteries** for your calculator. If you're missing any of these things, GRC may not work well for you. I don't know of any working Linux programs to transfer data.
+Additionally, I have no original fx-9750G to try this program on, so your mileage may vary if you can even get this program running on that old a calculator.
 
 % Insert pretty pictures of the bits we'll need.
 
