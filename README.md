@@ -9,7 +9,7 @@ These files all appear on this site just like they do on a calculator, however i
 * assignment (→)
 * rectangle symbol (r)
 * theta symbol (θ)
-* not-equals (≠, but looks slightly different on the Casio)
+* not-equals (≠), this looks slightly different on the Casio 9750G+, with the solidus being reversed.
 * "if ... THEN ..." (⇒)
 *  imaginary number symbol (𝒊)
 * multiply (×)
